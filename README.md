@@ -51,8 +51,8 @@ used to store and to manipulate data. The schemas with tables are stored in this
   - **results** \[grouped by county, election, results, vote type categories\]
   - **stats** \[totals grouped by county, party, rate, ethnicity, gender, and age\]
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The **NC voter registration file** is too large for this repository (which would appear in as ncvotes\\voters).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But you can download directly it from: <https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter_Statewide.zip>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The **NC voter registration file** is too large for this repository (which would appear in as ncvotes\\voters).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But you can download directly it from: <https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter_Statewide.zip>
 
 ## Excel / Google Sheets 
 Either may be used to further refine datasets. Power Query in Excel is also used. If needed, xlsx files can become available.
