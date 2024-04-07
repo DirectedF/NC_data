@@ -27,6 +27,7 @@ Python script updates need to access your local MySQL instance (assumes you keep
 ## MySQL
 used to store and to manipulate data. The schemas with tables are stored in this repository. This database is structured:
 
+### ncdata.sql.zip:
 - **ncfin\\** \[state financial data\]
   - **acfr** \[Annual Comprehensive Financial Report 2014-2023\]
   - **budget** \[budget passed 10/2023\]
