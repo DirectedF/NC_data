@@ -71,4 +71,4 @@ used for publishing insights. Data are tied together and presented here. Drill-d
 
 If you would like to collaborate on gathering and discovering insights, please contact **Kurt Selden** at kurt >at< kurtselden -dot- com
 
-*readme last updated 6-Apr-2024*
+*readme last updated 11-Apr-2024*
