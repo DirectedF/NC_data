@@ -88,4 +88,4 @@ used for publishing insights. Data are tied together and presented here. Drill-d
 <https://www.directedfusion.com/NC_project>
 
 *readme last updated 12-Apr-2024*
-'* Note: the use of the word 'we' and 'our' is currently the royal usage.
+\* Note: the use of the word 'we' and 'our' is currently the royal usage.
