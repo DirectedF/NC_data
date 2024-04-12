@@ -1,24 +1,42 @@
-This project examines the relationship between government actions and quality of life in North Carolina by analyzing representatives, legislative activities, expenditures, demographics, and voting patterns, aiming to track and illustrate this connection over time. To accomplish this, we require additional data and analytical reports to create a detailed view that allows for in-depth analysis across various dimensions. See the project list better understand the need and scope: <https://www.directedfusion.com/NC_project>
+# Explore Government Impact on Life Quality in North Carolina
 
-The database contains state finances, revenues, federal transfers, budget, demographics, individual income levels, household data, county facts, school evaluations, tax rates, voter registration, vote stats, government representatives, districts, and legislative activities. The data is meticulously extracted and prepped from many sources, transformed, and prepared for Looker Studio reporting and infographics.
+## Project Overview
+This project delves into how government actions influence quality of life in North Carolina by analyzing legislative activities, expenditures, demographics, and voting patterns. We aim to uncover trends and insights to inform public policy and enhance citizen understanding. Learn more about our project scope here: <https://www.directedfusion.com/NC_project>
 
-# Goal / Example Questions
-Primary goal is acquire a complete undersanding of NC counties.
-- At the NC county level, is there a difference between voting party preferences and quality of life?
-- Is there a correlation between tax rates and wealth?, education perfromance?
-- Where are the top 5 and bottom 5 counties housing vacany rates?
-- How have house values changed over time?
+## Data Repository
+We* compile and analyze a wealth of data including:
+- **State Finances**: Budgets, revenues, and federal transfers.
+- **Demographics**: County-specific data including income levels and household statistics.
+- **Education**: School evaluations and tax rates.
+- **Political Dynamics**: Voter registration stats and legislative activities.
 
-# Getting Started
+## Project Goals
+Our mission is to provide data-driven insights into how governmental decisions affect North Carolina's residents and who those residents are. This project aims to be a resource for policymakers, academics, and the public to foster informed decision-making.
 
-## Tools:
+## Key Questions
+We seek to answer questions like:
+- Do voting party preferences correlate with quality of life at the county level?
+- What is the relationship between tax rates and wealth or public school performance?
+- How effective are the most tenured state legislators in representing their districts?
+- Which areas benefit the most from state and federal funding?
 
-- Python / Jupyter notebook
-- SQL dB
-- Excel
-- Looker Studio
+## Help Wanted
+**Join our team of data-driven enthusiasts!** We're looking for expertise in data collection, analysis, and visualization. Specific needs include:
+- **Data Acquisition**: Documenting and sourcing data.
+- **Data Transformation**: Preparing data for Looker Studio and infographics.
+- **Process Design**: Implementing routines for data updates.
 
-## Python
+Learn more about how you can contribute contact kurt@kurtselden.com.
+
+# Getting Started -Details
+
+## Tools Utilized:
+- **Python / Jupyter Notebook**: For data scraping and analysis.
+- **SQL Database**: To manage and manipulate our extensive datasets.
+- **Excel / Google Sheets**: For data refinement using Power Query.
+- **Google Looker Studio**: For visualizing and publishing insights.
+
+### Python
 used to scrape data from the North Carolina General Assembly (State Legislature) website. The script populates the data into a MySQL database hosted on Windows 11 machine (using localhost server). Another Python script scrapes the aggregated NC county data from greatschools.org for the MySQL dB, but this data can only be used for personal use. This data will need to be replaced by the primary source available at the NC Department of Public Instruction site, <https://www.dpi.nc.gov/data-reports>. This site will need to be scraped.
 
 Python script updates need to access your local MySQL instance (assumes you keep the same schema as provided with the SQL scripts). Replace with your info:
@@ -30,8 +48,8 @@ Python script updates need to access your local MySQL instance (assumes you keep
   - &lt;<username&gt;>
   - &lt;<password&gt;>
 
-## MySQL
-used to store and to manipulate data. The schemas with tables are stored in this repository. This database is structured:
+### MySQL
+used to store and to manipulate data. The database installation scripts, with data, and its structure is within:
 ### ncdata.sql.zip:
 - **ncfin\\** \[state financial data\]
   - **acfr** \[Annual Comprehensive Financial Report 2014-2023\]
@@ -60,15 +78,14 @@ used to store and to manipulate data. The schemas with tables are stored in this
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The **NC voter registration file** is too large for this repository (which would appear in as ncvotes\\voters).  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But you can download directly it from: <https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter_Statewide.zip>
 
-## Excel / Google Sheets 
+### Excel / Google Sheets 
 Either may be used to further refine datasets. Power Query in Excel is also used. If needed, xlsx files can become available.
 
-## Google Looker Studio
+### Google Looker Studio
 used for publishing insights. Data are tied together and presented here. Drill-down is limited until data is gathered to the municipality-level. <https://lookerstudio.google.com/u/0/reporting/054ddd1d-dcc8-4da9-a7ab-dde8f0bdfe2f/page/p_emc25ivaed>
 
-## Project activity tracker
+### Project activity tracker
 <https://www.directedfusion.com/NC_project>
 
-If you would like to collaborate on gathering and discovering insights, please contact **Kurt Selden** at kurt >at< kurtselden -dot- com
-
-*readme last updated 11-Apr-2024*
+*readme last updated 12-Apr-2024*
+* Note: the use of the word 'we' and 'our' is currently the royal usage.
