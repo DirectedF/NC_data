@@ -2,7 +2,7 @@ This project examines the relationship between government actions and quality of
 
 The database contains state finances, revenues, federal transfers, budget, demographics, individual income levels, household data, county facts, school evaluations, tax rates, voter registration, vote stats, government representatives, districts, and legislative activities. The data is meticulously extracted and prepped from many sources, transformed, and prepared for Looker Studio reporting and infographics.
 
-# Questions / Goal examples
+# Goal / Example Questions
 Primary goal is acquire a complete undersanding of NC counties.
 - At the NC county level, is there a difference between voting party preferences and quality of life?
 - Is there a correlation between tax rates and wealth?, education perfromance?
