@@ -1,10 +1,10 @@
 # Explore Government Impact on Life Quality in North Carolina
 
 ## Project Overview
-This project delves into how government actions influence quality of life in North Carolina by analyzing legislative activities, expenditures, demographics, and voting patterns. We aim to uncover trends and insights to inform public policy and enhance citizen understanding. Learn more about our project scope here: <https://www.directedfusion.com/NC_project>
+This project delves into how government actions influence quality of life in North Carolina by analyzing legislative activities, expenditures, demographics, and voting patterns. We* aim to uncover trends and insights to inform public policy and enhance citizen understanding. Learn more about our project scope here: <https://www.directedfusion.com/NC_project>
 
 ## Data Repository
-We* compile and analyze a wealth of data including:
+We compile and analyze a wealth of data including:
 - **State Finances**: Budgets, revenues, and federal transfers.
 - **Demographics**: County-specific data including income levels and household statistics.
 - **Education**: School evaluations and tax rates.
