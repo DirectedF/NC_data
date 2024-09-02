@@ -1,4 +1,5 @@
 # Explore Government Impact on Life Quality in North Carolina
+*2024-09-02 project update: upgrading everything to a star schema using PostgreSQL*
 
 ## Project Overview
 This project delves into how government actions influence quality of life in North Carolina by analyzing legislative activities, expenditures, demographics, and voting patterns. We* aim to uncover trends and insights to inform public policy and enhance citizen understanding. Learn more about our project scope here: <https://www.directedfusion.com/NC_project>
